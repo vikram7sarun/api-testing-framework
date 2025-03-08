@@ -30,7 +30,7 @@ def test_create_user(users_api):
         "name": "Vikram",
         "job": "Automation Engineer"
     }
-    logger.info(f"Executing test: test_create_user with data: {user_data}")
+    logger.info(f"Executing  test: test_create_user with data: {user_data}")
 
     response = users_api.create_user(user_data)
     print(response)
