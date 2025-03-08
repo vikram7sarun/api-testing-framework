@@ -33,7 +33,7 @@ def test_create_user(users_api):
     logger.info(f"Executing test: test_create_user with data: {user_data}")
 
     response = users_api.create_user(user_data)
-
+    print(response)
     logger.info(f"Response Status Code: {response.status_code}")
     logger.debug(f"Response JSON: {response.json()}")
 
