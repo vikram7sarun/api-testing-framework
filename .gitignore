@@ -1,0 +1,13 @@
+# Ignore virtual environments
+.venv/
+env/
+__pycache__/
+*.pyc
+
+# Ignore logs
+logs/
+*.log
+
+# Ignore test reports
+reports/
+allure-results/
